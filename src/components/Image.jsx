@@ -32,7 +32,7 @@ const Image = () => {
       className="border max-w-[1400px] flex flex-wrap justify-between mx-auto bg-zinc-400"
     >
       <div id="meme" className="flex flex-col text-center flex-wrap p-4">
-        {randomMeme.name}
+        {randomMeme?.name}
         {randomMeme && (
           <img
             src={randomMeme.url}
