@@ -71,7 +71,7 @@ const Edit = ({ onTextChange, onColorChange, onNewImage }) => {
           onClick={onNewImage}
           className="bg-blue-500 text-white rounded p-2 mt-2 hover:bg-blue-600"
         >
-          Neues Bild
+          New meme
         </button>
       </div>
     </div>

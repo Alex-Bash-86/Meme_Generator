@@ -80,8 +80,6 @@ const Image = () => {
               alt={selectedMeme.name}
               className="max-w-110 border rounded-xl m-4"
             />
-
-            {/* Top Text */}
             {overlayTexts.top && (
               <div
                 className="absolute text-2xl font-bold drop-shadow-lg cursor-move select-none"
@@ -96,7 +94,6 @@ const Image = () => {
                 {overlayTexts.top}
               </div>
             )}
-
             {Object.entries(overlayTexts).map(([pos, text]) =>
               text ? (
                 <div
@@ -114,8 +111,6 @@ const Image = () => {
                 </div>
               ) : null
             )}
-
-            {/* Bottom Text */}
             {overlayTexts.bottom && (
               <div
                 className="absolute text-2xl font-bold drop-shadow-lg cursor-move select-none"
